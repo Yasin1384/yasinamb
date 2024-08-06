@@ -200,13 +200,10 @@ GameObject:
   m_Component:
   - component: {fileID: 301610754}
   - component: {fileID: 301610753}
-  - component: {fileID: 301610758}
   - component: {fileID: 301610755}
-  - component: {fileID: 301610760}
   - component: {fileID: 301610752}
   - component: {fileID: 301610756}
   - component: {fileID: 301610757}
-  - component: {fileID: 301610759}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Paddle
@@ -232,7 +229,6 @@ MonoBehaviour:
   anim: {fileID: 301610756}
   PreFabBulte: {fileID: 8132316523715231798, guid: 73d3a50fce1db2c4c9cb6f44b13f20fd, type: 3}
   GameManager: {fileID: 519420033}
-  spriteRenderer: {fileID: 301610753}
 --- !u!212 &301610753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -394,61 +390,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 6
---- !u!114 &301610758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301610751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f743c01f439fc6241a36362f71a45124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgChange: {fileID: 0}
-  csprite: {fileID: -2413806693520163455, guid: d2762b0c9db22114b9069ec5d6c1434f, type: 3}
-  GameManager: {fileID: 519420033}
---- !u!114 &301610759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301610751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 122dbd37570733545ae949f7239ee342, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreFabAllEnemy: {fileID: 0}
-  PreFabEnemy: {fileID: 0}
-  enemyPositions: []
-  briksCount: 0
-  score: 0
-  ScoreText: {fileID: 0}
-  Sprite: {fileID: 0}
-  ship: 0
---- !u!114 &301610760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301610751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 122dbd37570733545ae949f7239ee342, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreFabAllEnemy: {fileID: 0}
-  PreFabEnemy: {fileID: 0}
-  enemyPositions: []
-  briksCount: 0
-  score: 0
-  ScoreText: {fileID: 0}
-  Sprite: {fileID: -2413806693520163455, guid: d2762b0c9db22114b9069ec5d6c1434f, type: 3}
-  ship: 0
 --- !u!1 &348534694
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,8 +620,16 @@ MonoBehaviour:
   briksCount: 0
   score: 0
   ScoreText: {fileID: 559532256}
-  Sprite: {fileID: 21300000, guid: cd236fd745b221849bc2571460a22bb5, type: 3}
-  ship: 0
+  sprites:
+  - {fileID: 21300000, guid: 794881495f360db42a13137134067bb8, type: 3}
+  - {fileID: -2413806693520163455, guid: d2762b0c9db22114b9069ec5d6c1434f, type: 3}
+  - {fileID: 21300000, guid: dfdfc4e3d96c5bf49adfe0ffbf764d53, type: 3}
+  spriteRenderers: {fileID: 301610753}
+  spriteIndex: 2
+  backRenderers: {fileID: 1746564022}
+  background:
+  - {fileID: 21300000, guid: 5070f6f3e08a1df4ab443f6df243ddf6, type: 3}
+  backShip: 0
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -695,7 +644,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -10775,6 +10724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1746564023}
   - component: {fileID: 1746564022}
+  - component: {fileID: 1746564024}
   m_Layer: 0
   m_Name: Space-Planet-galaxy-animated-wallpapers-for-Desktop-Laptop-Tablet-Mobile-Phones-840x525
   m_TagString: Untagged
@@ -10849,6 +10799,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746564024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746564021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545fdcd6e43115c48987bcc7d639b7a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background:
+  - {fileID: 21300000, guid: 5070f6f3e08a1df4ab443f6df243ddf6, type: 3}
+  backShip: 0
+  back: {fileID: 519420033}
 --- !u!1 &1810121093
 GameObject:
   m_ObjectHideFlags: 0
