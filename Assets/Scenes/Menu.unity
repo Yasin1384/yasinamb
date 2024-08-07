@@ -1261,7 +1261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eebac27519c4624e81def837c317b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: {fileID: 0}
 --- !u!1 &269845503
 GameObject:
   m_ObjectHideFlags: 0
@@ -24557,6 +24556,7 @@ GameObject:
   - component: {fileID: 1956603875}
   - component: {fileID: 1956603871}
   - component: {fileID: 1956603877}
+  - component: {fileID: 1956603879}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -24667,7 +24667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eebac27519c4624e81def837c317b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btn: {fileID: 1871044178}
 --- !u!95 &1956603877
 Animator:
   serializedVersion: 5
@@ -24701,6 +24700,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff88a13e89f0e141b66fdf94ebd7643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1956603879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956603870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669f1718cf8a65349b07de847ea449f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyPlayer:
+    name: 
+    age: 0
+    Score: 0
+    HighScore: 0
 --- !u!1 &1958951187
 GameObject:
   m_ObjectHideFlags: 0

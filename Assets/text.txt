@@ -1,1 +1,0 @@
-{"name":"yasin","age":12}

@@ -508,7 +508,6 @@ MonoBehaviour:
   Speed: 0
   PaddleSpeed: 0
   Manager: {fileID: 519420033}
-  score: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,8 +617,6 @@ MonoBehaviour:
   - {x: -2, y: 4}
   - {x: -5.5, y: 4}
   briksCount: 0
-  score: 0
-  ScoreText: {fileID: 559532256}
   sprites:
   - {fileID: 21300000, guid: 794881495f360db42a13137134067bb8, type: 3}
   - {fileID: -2413806693520163455, guid: d2762b0c9db22114b9069ec5d6c1434f, type: 3}
@@ -629,7 +626,12 @@ MonoBehaviour:
   backRenderers: {fileID: 1746564022}
   background:
   - {fileID: 21300000, guid: 5070f6f3e08a1df4ab443f6df243ddf6, type: 3}
-  backShip: 0
+  backShip: 1
+  score: 0
+  textscore: {fileID: 559532256}
+  Highscore:
+    Name: yasin
+    highScore: 5
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10813,7 +10815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   background:
   - {fileID: 21300000, guid: 5070f6f3e08a1df4ab443f6df243ddf6, type: 3}
-  backShip: 0
+  backShip: 1
   back: {fileID: 519420033}
 --- !u!1 &1810121093
 GameObject:
