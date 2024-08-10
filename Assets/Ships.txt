@@ -1,0 +1,19 @@
+{"playerOne":
+	[
+		{
+		"name":"ShipsOne",
+		"id":1,
+		"damage":50
+		},
+		{
+		"name":"ShipsTwo",
+		"id":2,
+		"damage":70
+		},
+		{
+		"name":"ShipsThree",
+		"id":3,
+		"damage":100
+		}
+	]
+}

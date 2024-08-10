@@ -10485,7 +10485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2734708731553438388, guid: d17b293e300129b41b6647fc4d4769ca, type: 3}
       propertyPath: spawnPositionXL
-      value: -10
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2734708731553438388, guid: d17b293e300129b41b6647fc4d4769ca, type: 3}
       propertyPath: spawnPositionXR
@@ -10493,7 +10493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2734708731553438388, guid: d17b293e300129b41b6647fc4d4769ca, type: 3}
       propertyPath: spawnPositionYL
-      value: 3
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2734708731553438388, guid: d17b293e300129b41b6647fc4d4769ca, type: 3}
       propertyPath: spawnPositionYR
