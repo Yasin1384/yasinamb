@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 519420034}
   - component: {fileID: 519420036}
   - component: {fileID: 519420035}
+  - component: {fileID: 519420037}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -425,16 +426,12 @@ MonoBehaviour:
   - {x: -2, y: 4}
   - {x: -5.5, y: 4}
   briksCount: 0
-  sprites:
-  - {fileID: 21300000, guid: 794881495f360db42a13137134067bb8, type: 3}
-  - {fileID: -2413806693520163455, guid: d2762b0c9db22114b9069ec5d6c1434f, type: 3}
-  - {fileID: 21300000, guid: dfdfc4e3d96c5bf49adfe0ffbf764d53, type: 3}
+  sprites: []
   spriteRenderers: {fileID: 301610753}
   spriteIndex: 2
   backRenderers: {fileID: 1746564022}
-  background:
-  - {fileID: 21300000, guid: 5070f6f3e08a1df4ab443f6df243ddf6, type: 3}
-  backShip: 1
+  background: []
+  backShip: 0
   score: 0
   textscore: {fileID: 559532256}
   Highscore:
@@ -558,6 +555,23 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed1e2746843b0f478329f25dc5c7cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite1:
+  - {fileID: 21300000, guid: dfdfc4e3d96c5bf49adfe0ffbf764d53, type: 3}
+  spriteRenderers: {fileID: 301610753}
+  buttons: []
+  number: 0
 --- !u!1 &534819924
 GameObject:
   m_ObjectHideFlags: 0
