@@ -1263,7 +1263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muteText: {fileID: 0}
   unmute: Unmute
-  mutte: mute
 --- !u!1 &269845503
 GameObject:
   m_ObjectHideFlags: 0
@@ -4232,12 +4231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1e2746843b0f478329f25dc5c7cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite1:
-  - {fileID: 21300000, guid: dfdfc4e3d96c5bf49adfe0ffbf764d53, type: 3}
-  spriteRenderers: {fileID: 0}
-  buttons:
-  - {fileID: 733120102}
-  number: 0
 --- !u!1 &1018174338
 GameObject:
   m_ObjectHideFlags: 0
@@ -4658,7 +4651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1032775768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14001,11 +13994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1e2746843b0f478329f25dc5c7cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite1:
-  - {fileID: 0}
-  spriteRenderers: {fileID: 1863525183}
-  buttons: []
-  number: 0
 --- !u!1 &1781544964
 GameObject:
   m_ObjectHideFlags: 0
@@ -19922,7 +19910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muteText: {fileID: 1018174340}
   unmute: Unmute
-  mutte: mute
 --- !u!95 &1956603877
 Animator:
   serializedVersion: 5
