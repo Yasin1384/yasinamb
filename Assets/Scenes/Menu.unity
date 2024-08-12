@@ -2725,9 +2725,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 962994551}
-        m_TargetAssemblyTypeName: SingleTon, Assembly-CSharp
-        m_MethodName: button1
+      - m_Target: {fileID: 962994550}
+        m_TargetAssemblyTypeName: JsonForShips, Assembly-CSharp
+        m_MethodName: OutPutShips
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4210,15 +4210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myPlayer:
     playerOne:
-    - name: ShipsOne
+    - name: Ship_red
       id: 1
       damage: 50
-    - name: ShipsTwo
-      id: 2
-      damage: 70
-    - name: ShipsThree
-      id: 3
-      damage: 100
 --- !u!114 &962994551
 MonoBehaviour:
   m_ObjectHideFlags: 0
