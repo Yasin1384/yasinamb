@@ -426,9 +426,10 @@ MonoBehaviour:
   - {x: -2, y: 4}
   - {x: -5.5, y: 4}
   briksCount: 0
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: 794881495f360db42a13137134067bb8, type: 3}
   spriteRenderers: {fileID: 301610753}
-  spriteIndex: 2
+  spriteIndex: 1
   backRenderers: {fileID: 1746564022}
   background: []
   backShip: 0
@@ -437,7 +438,6 @@ MonoBehaviour:
   Highscore:
     Name: yasin
     highscore: 0
-  spriteLoader: {fileID: 0}
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0
