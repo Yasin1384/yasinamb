@@ -1,1 +1,0 @@
-{"playerOne":[{"name":"Ship_red","id":1,"damage":50}]}

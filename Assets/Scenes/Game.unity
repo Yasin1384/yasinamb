@@ -437,6 +437,7 @@ MonoBehaviour:
   Highscore:
     Name: yasin
     highscore: 0
+  spriteLoader: {fileID: 0}
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -567,11 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1e2746843b0f478329f25dc5c7cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite1:
-  - {fileID: 21300000, guid: dfdfc4e3d96c5bf49adfe0ffbf764d53, type: 3}
-  spriteRenderers: {fileID: 301610753}
-  buttons: []
-  number: 0
+  datasprites: []
 --- !u!1 &534819924
 GameObject:
   m_ObjectHideFlags: 0
