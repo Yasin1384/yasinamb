@@ -401,7 +401,6 @@ GameObject:
   - component: {fileID: 4314982501849109110}
   - component: {fileID: 6445641731118195768}
   - component: {fileID: 5701126096742859006}
-  - component: {fileID: 2953584544412651676}
   m_Layer: 0
   m_Name: Popup_Ship
   m_TagString: Untagged
@@ -492,20 +491,8 @@ MonoBehaviour:
   contentTransform: {fileID: 4135583409039168084}
   closePopupShipButton: {fileID: 6881846004199278311}
   popupShipPrefab: {fileID: 1974014522428882533}
-  shipPrefab: {fileID: 0}
+  shipPrefab: {fileID: 6303807127064360744, guid: 89822825b93743a4d92151c1f4999d9a, type: 3}
   debug: 
---- !u!114 &2953584544412651676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974014522428882533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f8ce526d16996c429d4ae12d1fa3521, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3477629090416856295
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +779,7 @@ GameObject:
   - component: {fileID: 4135583409039168084}
   - component: {fileID: 7703927042704620138}
   - component: {fileID: 1073870936028979647}
+  - component: {fileID: 4139008697432223076}
   m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
@@ -858,3 +846,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &4139008697432223076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9197173512356792563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8ce526d16996c429d4ae12d1fa3521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipPrefab:
+  - {fileID: 6303807127064360744, guid: 89822825b93743a4d92151c1f4999d9a, type: 3}
+  - {fileID: 7235139072815361146, guid: ce21f5a2528465848b57b558c7719dd1, type: 3}
+  - {fileID: 7008737799332795236, guid: fe5329dfac17e024f988d78f74eb04b9, type: 3}
+  shipTransform: {fileID: 4135583409039168084}
